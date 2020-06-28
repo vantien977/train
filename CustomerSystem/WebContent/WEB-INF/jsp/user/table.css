@@ -1,0 +1,90 @@
+#titleMiddle
+{
+	margin-top : 20px;
+	background:	#DCDCDC;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+	margin-bottom : 20px;
+}
+#btnNext
+{
+	margin-left: 80%;
+}
+
+th
+{
+	background-color: black;
+	border: solid 1px white;
+	color: white;
+}
+td
+{
+		border: solid 1px white ;
+}
+
+    .fixed-footer{
+        bottom: 0;
+    }
+      
+    .container-fluid
+    {
+     margin: 0 auto;
+    }
+    
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+   .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+     
+    .fixed-footer{
+        bottom: 0;
+    }    
+    /* Some more styles to beutify this example */
+  
+    .container p{
+        line-height: 200px; /* Create scrollbar to test positioning */
+    }  
+ body {margin:0;}
+
+.navbar2 {
+  overflow: hidden;
+  background-color:#0040FF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: xx-large;
+  color: white;
+}
+
+.navbar2 a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: centexr;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar2 a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.colinput
+{
+ margin-left: 2%;
+}
