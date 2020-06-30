@@ -1,11 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="bean.BenhNhan"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
 #titleMiddle {
@@ -70,29 +70,18 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	font-size: xx-large;
 	color: white;
+	height: 100px;
+	
 }
 
-.navbar2 a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: centexr;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-}
 
-.navbar2 a:hover {
-	background: #ddd;
-	color: black;
-}
+
 
 .main {
 	padding: 16px;
-	margin-top: 30px;
-	height: 1500px; /* Used in this example to enable scrolling */
+	margin-top: 80px;
+	height: 900px; /* Used in this example to enable scrolling */
 }
 
 .colinput {
@@ -106,11 +95,11 @@ body {
 }
 
 #btn {
-	color: white;
-	background: green;
-	border-radius: 5px;
-	width: 100px;
-	height: 30px;
+	color: white!important; 
+	background: green!important;
+	border-radius: 5px!important;
+	width: 100px!important;
+	height: 30px!important;
 }
 
 .btnpage {
@@ -126,6 +115,10 @@ body {
 {
 margin-bottom: 5px;
 }
+#titleTop
+{
+margin-left: 20px;
+}
 </style>
 <link rel="stylesheet" href="table.css">
 <link rel="stylesheet"
@@ -138,8 +131,8 @@ margin-bottom: 5px;
 
 </head>
 <body>
-	<div class="navbar2">Traning Project</div>
-
+	
+	<%@include file="T003.jsp" %>
 	<div class="main">
 		<div class="container-fluid">
 			<div class="container-fluid">
